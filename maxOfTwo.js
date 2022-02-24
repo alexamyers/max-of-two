@@ -1,4 +1,12 @@
-let x = 1
-let y = 2
+let x = 4
+let y = 4
 
-console.log(x + y);
+if (x > y) {
+    console.log(x)
+} else { 
+    console.log(y)
+}
+
+if (x == y) {
+    console.log("The values are identical")
+}
